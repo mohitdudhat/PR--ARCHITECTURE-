@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architecture</title>
+
+  <!-- offline fonts -->
+  <link rel="stylesheet" href="css/fonts.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- boostrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- custom -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- media -->
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body class="bgcolor">
+
+  <nav class="navbar navbar-expand-lg p-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo_01.png" alt="" width="119">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 m-auto">
+          <li class="nav-item dropdown p-2">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              HOME
+              <i class="fa-solid fa-plus"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="d-flex">
+              <li><a class="dropdown-item" href="index.html">
+                <img src="img/mm-1.jpg" alt="" height="341">
+              </a></li>
+              <li><a class="dropdown-item" href="#">
+                <img src="img/mm-2.jpg" alt="" height="341">
+              </a></li>
+              <li><a class="dropdown-item" href="#">
+                <img src="img/mm-3.jpg" alt="" height="341"></a></li>
+              </div>
+            </ul>
+          </li>
+          <li class="nav-item dropdown p-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+             SERVICES
+              <i class="fa-solid fa-plus"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="services.html">Services V1</a></li>
+              <li><a class="dropdown-item" href="#">Services (Dark)</a></li>
+              <li><a class="dropdown-item" href="#">Services V2</a></li>
+              <li><a class="dropdown-item" href="#">Architecture V1</a></li>
+              <li><a class="dropdown-item" href="#">Interior Design V2</a></li>
+              <li><a class="dropdown-item" href="#">Lighting Installation V3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown p-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Projects
+              <i class="fa-solid fa-plus"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="project.html">Project Layouts</a></li>
+              <li><a class="dropdown-item" href="#">Projects: Style 1</a></li>
+              <li><a class="dropdown-item" href="#">Projects: Style 2</a></li>
+              <li><a class="dropdown-item" href="#">Projects: Style 3</a></li>
+              <li><a class="dropdown-item" href="#">Projects: Style 4</a></li>
+              <li><a class="dropdown-item" href="#">Projects: Style 5</a></li>
+              <li><a class="dropdown-item" href="#">Projects: Style 6</a></li>
+              <li><a class="dropdown-item" href="#">Projects: Style 7</a></li>
+              <li><a class="dropdown-item" href="#">Projects: Style 8</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown p-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              About us
+              <i class="fa-solid fa-plus"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="about.html">About us</a></li>
+              <li><a class="dropdown-item" href="#">About us v2</a></li>
+              <li><a class="dropdown-item" href="#">Our team</a></li>
+              <li><a class="dropdown-item" href="#">Testimonials</a></li>
+              <li><a class="dropdown-item" href="#">Left sidebar page</a></li>
+              <li><a class="dropdown-item" href="#">Right sidebar page</a></li>
+              <li><a class="dropdown-item" href="#">Shortcodes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown p-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              SHOP
+              <i class="fa-solid fa-plus"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Product Page</a></li>
+              <li><a class="dropdown-item" href="#">Cart</a></li>
+              <li><a class="dropdown-item" href="#">Checkout</a></li>
+              <li><a class="dropdown-item" href="#">My account</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown p-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Contact us
+              <i class="fa-solid fa-plus"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="contact.html">Contact us</a></li>
+              <li><a class="dropdown-item" href="#">Contact us v2</a></li>
+              <li><a class="dropdown-item" href="#">Contact us v3</a></li>
+              <li><a class="dropdown-item" href="#">Contact us v4</a></li>
+            </ul>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" aria-current="page" href="#">Blog</a>
+          </li>
+        </ul>
+        <div class="nav-ic">
+          <i class="fa-solid fa-bag-shopping px-3"></i>
+          <i class="fa-solid fa-magnifying-glass px-2"></i>
+        </div>
+       </div>
+    </div>
+  </nav>   
+
+
+
+  <!-- banner -->
+
+ 
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active"  data-bs-interval="2000">
+        <div class="banner-img">
+          <img src="img/interior-photo-5-1903x760.jpg" alt="" width="100%">
+        </div>
+        <div class="container">
+          <div class="row banner-content">
+              <div class="firsttitle text-white-50">
+                <span class="text-white">01</span>
+                /03
+              </div>
+              <h1>Open the Door to Better<br> Kind of Interior.</h1>
+              <div class="btn">View Services  <i class="fa-solid fa-arrow-right"></i></div>
+              <div class="btn3">Contact us   <i class="fa-solid fa-arrow-right"></i></div> 
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="banner-img">
+          <img src="img/interior-photo-6-1903x760.jpg" alt="" width="100%">
+        </div>
+        <div class="container">
+          <div class="row banner-content">
+              <div class="firsttitle text-white-50">
+                <span class="text-white">02</span>
+                /03
+              </div>
+              <h1>Dream Home Might be <br>Closer than You Think.</h1>
+              <div class="btn">View Services  <i class="fa-solid fa-arrow-right"></i></div>
+              <div class="btn3">Contact us  <i class="fa-solid fa-arrow-right"></i></div> 
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="banner-img">
+          <img src="img/interior-photo-5-1903x760.jpg" alt="" width="100%">
+        </div>
+        <div class="container">
+          <div class="row banner-content">
+              <div class="firsttitle text-white-50">
+                <span class="text-white">03</span>
+                /03
+              </div>
+              <h1>Perfect Synergy of <br>Classic & Modern.</h1>
+              <div class="btn ex">View Services  <i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>  
+
+
+  <!-- stoni -->
+
+   <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 res">
+          <img src="img/image-layers_7-1.png" alt="">
+        </div>
+        <div class="col-6 stoni-content p-5 counters">
+          <h3 >Best Designers &
+            Architectures <span>for You</span></h3>
+          <p class="pt-2">Design affects human. It changes the view of life and the self-image. According to the opinion
+            specialists, a good design is a space that matches with the lifestyle, habits and nature of the person.</p>
+          <div class="col-12 row icon pt-3">
+            <div class="col-6 text-center ps-0">
+              <span class="counter" data-target="200">0</span>
+              <span>+</span>
+              <h4 class="text-white">Projects Finished</h4>
+            </div>
+            <div class="col-6 text-center">
+              <span class="counter" data-target="180">0</span>
+              <span>+</span>
+              <h4 class="text-white">Happy Clients</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>   
+
+
+  <!-- slider -->
+
+ <section class="slider-img mt-5 position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="s-img text-center">
+          <img src="img/pic-2.png" alt="" width="33" height="20">
+        </div>
+        <div class="title1 text-center">
+          <h3>Drag the Slider to See </h3>
+          <h3>the Transformation One of the Interior</h3>
+        </div>
+        <div class="col-12 row ptb">
+          <div class="col-6 p-0 drag">
+            <img src="img/image_comp-1.jpg" alt="" class="d-block w-100">
+          </div>
+          <div class="col-6 p-0 drag">
+            <img src="img/image_comp-2.jpg" alt="" class="d-block w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>   
+
+  
+  <!-- logo -->
+
+   <section class="pts">
+    <div class="container">
+      <div class="row">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active " data-bs-interval="10000">
+              <div class="col-12 row cks">
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12">  <img src="img/01.png"  alt="..."></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12"><img src="img/02.png" alt="..."></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12">  <img src="img/03.png"  alt="..."></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12"><img src="img/04.png" alt=""></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12"><img src="img/05.png" alt=""></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12"><img src="img/06.png" alt=""></div>
+              </div>
+          </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class="col-12 row cks">
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12">  <img src="img/01.png"  alt="..."></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12"><img src="img/02.png" alt="..."></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12">  <img src="img/03.png"  alt="..."></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12"><img src="img/04.png" alt=""></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12"><img src="img/05.png" alt=""></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12"><img src="img/06.png" alt=""></div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class="col-12 row cks">
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12">  <img src="img/01.png"  alt="..."></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12"><img src="img/02.png" alt="..."></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12">  <img src="img/03.png"  alt="..."></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12"><img src="img/04.png" alt=""></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12"><img src="img/05.png" alt=""></div>
+                <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12"><img src="img/06.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <!--next  -->
+ <section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div class="box">
+          <div class="box-content overflow-hidden">
+            <i class="fa-solid fa-grip-lines text-white-50"></i>
+            <span>We work differently.</span>
+            <h2 class="mt-2">With <strong>design </strong>& <strong>conceptual</strong> decisions, we create value for the objects.</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Idea</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Design</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Excecution</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="design">
+                  <p class="text-white">The research phase is very important. We do our best to plan every possible outcome, which would affect the budget and time of finishing the project:</p>
+                  <ul class="text-white">
+                    <li>Based on your exact needs, get only what your project requires.</li>
+                  <li>Cost effective, to secure uninteruptable construction process.</li>
+                  <li>We work with the best people in the field.</li>
+                </ul>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="design">
+                <p class="text-white">The research phase is very important.</p>
+                <ul class="text-white">
+                  <li>Based on your exact needs, get only what your project requires.</li>
+                <li>Cost effective, to secure uninteruptable construction process.</li>
+                <li>We work with the best people in the field.</li>
+              </ul>
+            </div>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="design">
+                <p class="text-white">The research phase is very important. We do our best to plan every possible outcome, which would affect the budget and time of finishing the project. Once this stage is done, we have the solution that is:</p>
+                <ul class="text-white">
+                  <li>Based on your exact needs, get only what your project requires.</li>
+                <li>Cost effective, to secure uninteruptable construction process.</li>
+                <li>We work with the best people in the field.</li>
+              </ul>
+            </div>
+              </div>
+            </div>
+
+          </div>
+        <img src="img/image-portfolio-3.jpg" alt="" class="ms-3" >
+       </div>
+    </div>
+  </div>
+</section>  
+  
+<!-- works -->
+
+  <section class="overflow-hidden work">
+  <div class="row">
+    <div class="col-12 row p-0">
+      <div class="col-xxl-6 col-md-12 p-0 box10">
+        <img src="img/portfolio_01-1140x570.jpg" alt="" class="d-block w-100">
+      </div>
+      <div class="col-xxl-3 col-md-6 p-0">
+        <img src="img/portfolio_02-1140x1140.jpg" alt="" class="d-block w-100">
+      </div>
+      <div class="col-xxl-3 col-md-6 p-0">
+        <img src="img/portfolio_03-1140x1140.jpg" alt="" class="d-block w-100">
+      </div>
+    </div>
+    <div class="col-12 row p-0">
+      <div class="col-xxl-3 col-md-6 p-0">
+        <img src="img/portfolio_04-1140x1140.jpg" alt="" class="d-block w-100">
+      </div>
+      <div class="col-xxl-3 col-md-6 p-0">
+        <img src="img/portfolio_05-1140x1140.jpg" alt="" class="d-block w-100">
+      </div>
+      <div class="col-xxl-6 col-md-12 p-0">
+        <img src="img/portfolio_06-1140x570.jpg" alt="" class="d-block w-100">
+      </div>
+    </div>
+  </div>
+</section>   
+
+ 
+ <section class="work-bg-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 row">
+        <div class="col-xxl-4 col-md-6 col-sm-12">
+          <img src="img/infobox_01.png" alt="">
+          <div class="work-content mt-4">
+            <h3>Designer Planning Space</h3>
+            <p>We diversify for the extensive experience of work with different premises</p>
+            <div class="btn2">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-md-6 col-sm-12">
+          <img src="img/infobox_02.png" alt="">
+          <div class="work-content mt-4">
+            <h3>Architect Draws Sketches</h3>
+            <p>We diversify for the extensive experience of work with different premises</p>
+            <div class="btn2">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-md-6 col-sm-12">
+          <img src="img/infobox_03.png" alt="">
+          <div class="work-content mt-4">
+            <h3>Builders Start Building</h3>
+            <p>We diversify for the extensive experience of work with different premises</p>
+            <div class="btn2">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+
+<!-- title -->
+
+  <section class="pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="title text-center m-auto">
+        <h4>Choose Your <span>Optimal Plan</span></h4>
+        <p class="mt-3">The stylish and organized interior represents the way to feel happy and complete. Design and comfort are primarily important for the success of a person’s life.</p>
+      </div>
+    </div>
+  </div>
+</section>  
+
+<!-- price -->
+
+ <section class="py-4 overflow-hidden">
+  <div class="container overflow-hidden">
+    <div class="row">
+      <div class="col-12 row mt-5">
+        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="f01 pt-4">
+          <div class="first">
+            <h4 class="m-auto">BASIC</h4>
+            <h2><span>$</span>120<span>/ per m²</span></h2>
+            <p class="bk">A good choice when working remotely<br> (from 100m²)</p>
+            <h3 class="py-2">Planning Solution</h3>
+            <h3 class="py-2">3D Visualization</h3>
+            <h3 class="py-2">10 Construction Drawings</h3>
+            <h3 class="py-2">Selection of Materials</h3>
+             <div class="btn4 m-auto my-5">
+                 Choose Plan
+             </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="first">
+            <h4 class="m-auto">ULTRA</h4>
+            <h2><span>$</span>220<span>/ per m²</span></h2>
+            <p class="bk">A good choice when working remotely<br> (from 200m²)</p>
+            <h3 class="py-2">Planning Solution</h3>
+            <h3 class="py-2">Selection of Materials</h3>
+            <h3 class="py-2">3D Visualization</h3>
+            <h3 class="py-2">10 Construction Drawings</h3>
+            <h3 class="py-2">Selection of Materials</h3>
+
+            <div class="btn4 m-auto my-5">
+                 Choose Plan
+            </div>
+        </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-4">
+          <div class="first">
+            <h4 class="m-auto">PRO</h4>
+            <h2><span>$</span>320<span>/ per m²</span></h2>
+            <p class="bk">A good choice when working remotely<br> (from 100m²)</p>
+            <h3 class="py-2">Planning Solution</h3>
+            <h3 class="py-2">3D Visualization</h3>
+            <h3 class="py-2">10 Construction Drawings</h3>
+            <h3 class="py-2">Selection of Materials</h3>
+
+            <div class="btn4 m-auto my-5">
+                 Choose Plan
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+
+
+
+<!-- amazing team -->
+
+  <div class="ama-tit text-center pt-5">
+  <p>Award-winning</p>
+  <h4>Amazing team with international recognition.</h4>
+ </div>  
+
+ 
+ <section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 row">
+       <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+        <img src="img/team-1.jpg" alt="">
+        <div class="box5 text-center">Jack Ottoman</div>
+       </div>
+       <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+        <img src="img/team-2.jpg" alt="">
+        <div class="box5 text-center">Alison Clutcher</div>
+       </div>
+       <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+        <img src="img/team-3.jpg" alt="">
+        <div class="box5 text-center">Julie Crawford</div>
+       </div>
+       <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+        <img src="img/team-4.jpg" alt="">
+        <div class="box5 text-center">Peter Jefferson</div>
+       </div>
+      </div>
+    </div>
+  </div>
+</section> 
+
+<!-- review -->
+  <section class="py-5">
+  <div class="container">
+    <div class="row">
+     <div class="re-conte border-bottom">
+     <h2 class="text-white pb-3">What our clients say</h2>
+    </div>
+  </div>
+</div>
+</section>
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 row mt-5 mb-5">
+            <div class="col-xxl-6 col-sm-12 row px-4">
+              <div class="testimonial row">
+                <div class="col-4 text-center">
+                  <img src="img/team-4-150x150.jpg" alt="" class="rounded-circle" width="72">
+                  <p>John Stevens</p>
+                  <p>Manager</p>
+                </div>
+                <div class="col-8">
+                  <h5 class="mb-3 text-white">This has been the best project we have worked so far!</h5>
+                  <h6 class="text-white-50">Interico company has a really proffessional staff. They kept us informed throughout the process of building our house. We got suggestions on what materials to choose and the quality met our expectations.</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-6 col-sm-12  row px-4">
+              <div class="testimonial row">
+                <div class="col-4 text-center">
+                  <img src="img/team-1-150x150.jpg" alt="" class="rounded-circle" width="72">
+                  <p>John Stevens</p>
+                  <p>Manager</p>
+                </div>
+                <div class="col-8">
+                  <h5 class="mb-3 text-white">This has been the best project we have worked so far!</h5>
+                  <h6 class="text-white-50">Interico company has a really proffessional staff. They kept us informed throughout the process of building our house. We got suggestions on what materials to choose and the quality met our expectations.</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 row mt-5 mb-5">
+            <div class="col-xxl-6 col-sm-12  row px-4">
+              <div class="testimonial row">
+                <div class="col-4 text-center">
+                  <img src="img/team-4-150x150.jpg" alt="" class="rounded-circle" width="72">
+                  <p>John Stevens</p>
+                  <p>Manager</p>
+                </div>
+                <div class="col-8">
+                  <h5 class="mb-3 text-white">This has been the best project we have worked so far!</h5>
+                  <h6 class="text-white-50">Interico company has a really proffessional staff. They kept us informed throughout the process of building our house. We got suggestions on what materials to choose and the quality met our expectations.</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-6 col-sm-12  row px-4">
+              <div class="testimonial row">
+                <div class="col-4 text-center">
+                  <img src="img/team-1-150x150.jpg" alt="" class="rounded-circle" width="72">
+                  <p>John Stevens</p>
+                  <p>Manager</p>
+                </div>
+                <div class="col-8">
+                  <h5 class="mb-3 text-white">This has been the best project we have worked so far!</h5>
+                  <h6 class="text-white-50">Interico company has a really proffessional staff. They kept us informed throughout the process of building our house. We got suggestions on what materials to choose and the quality met our expectations.</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 row mt-5 mb-5">
+            <div class="col-xxl-6 col-sm-12 row px-4">
+              <div class="testimonial row">
+                <div class="col-4 text-center">
+                  <img src="img/team-4-150x150.jpg" alt="" class="rounded-circle" width="72">
+                  <p>John Stevens</p>
+                  <p>Manager</p>
+                </div>
+                <div class="col-8">
+                  <h5 class="mb-3 text-white">This has been the best project we have worked so far!</h5>
+                  <h6 class="text-white-50">Interico company has a really proffessional staff. They kept us informed throughout the process of building our house. We got suggestions on what materials to choose and the quality met our expectations.</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-6 col-sm-12 row px-4">
+              <div class="testimonial row">
+                <div class="col-4 text-center">
+                  <img src="img/team-1-150x150.jpg" alt="" class="rounded-circle" width="72">
+                  <p>John Stevens</p>
+                  <p>Manager</p>
+                </div>
+                <div class="col-8">
+                  <h5 class="mb-3 text-white">This has been the best project we have worked so far!</h5>
+                  <h6 class="text-white-50">Interico company has a really proffessional staff. They kept us informed throughout the process of building our house. We got suggestions on what materials to choose and the quality met our expectations.</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>  
+
+
+<!-- footer  -->
+
+ <section class="pt-5 footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 row p-4">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12 f1 ">
+          <img src="img/logo_01 (1).png" alt=""  height="40">
+          <p>We diversify for the extensive experience of work with different premises: interior for apartment, cottage design project, architecture, office design, cafes, restaurants.</p>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+          <div class="f-2">
+          <h6>Contacts</h6>
+        </div>
+          <div class="footer-content">
+            <ul class="ps-0">
+              <li>
+                  <span>Phone:</span>
+                  +010 234 789234
+              </li>
+              <li>
+                  <span>Fax:</span>
+                  +010 435 5798982
+              </li>
+              <li>
+                  <span>Email:</span>
+                  stoni@webgeniuslab.com
+              </li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+          <div class="f-2">
+            <h6>Our Services</h6>
+            <ul class="ps-0">
+             <li class="py-2"><a href="#">Industrial Design</a></li>
+             <li class="py-2"><a href="#">Commercial Interior Design</a></li>
+             <li class="py-2"><a href="#">Residencial Interior Design</a></li>
+             <li class="py-2"><a href="#">Detailed and Phased Planning</a></li>
+             <li class="py-2"><a href="#">Apartment Exterior Design</a></li>
+             <li class="py-2"><a href="#">Architecture Design</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+          <div class="f-2">
+            <h6>Our Gallery</h6>
+            <div class="col-12 row g-3">
+              <div class="col-4">
+                <img src="img/gallery_widget_1.jpg" alt="">
+              </div>
+              <div class="col-4">
+                <img src="img/gallery_widget_2.jpg" alt="">
+              </div>
+              <div class="col-4">
+                <img src="img/gallery_widget_3.jpg" alt="">
+              </div>
+              <div class="col-4">
+                <img src="img/gallery_widget_4.jpg" alt="">
+              </div>
+              <div class="col-4">
+                <img src="img/gallery_widget_5.jpg" alt="">
+              </div>
+              <div class="col-4">
+                <img src="img/gallery_widget_6.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+
+<!-- last -->
+
+ <section class="p-4 bgcolor">
+  <div class="container">
+    <div class="row last text-center">
+      <span>Copyright © 2019 STONI by <a href="#">WebGeniusLab.</a> All Rights Reserved.</span>
+    </div>
+  </div>
+</section> 
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/jquery.min.js"></script>
+
+  <!-- counter -->
+  <script src="js/function.js"></script>
+
+</body>
+
+</html>
